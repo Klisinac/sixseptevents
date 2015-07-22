@@ -1,1 +1,19 @@
 // Your footer style
+#footer   {
+  padding: 20px;
+  text-align: center;
+  background-color: #030305;
+  color:lightgrey;
+}
+
+#footer li  {
+  font-size: 30px;
+}
+
+#footer a   {
+  color:lightgrey;
+}
+
+#footer a:hover   {
+  color:white;
+}

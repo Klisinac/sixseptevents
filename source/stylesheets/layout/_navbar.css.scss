@@ -9,16 +9,16 @@ $navbar-bg: white;
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
-$navbar-height: 50px;
-$navbar-vertical-padding: 5px;
+$navbar-height: 20px;
+$navbar-vertical-padding: 10px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
-$navbar-border-bottom-color: grey;
+$navbar-border-bottom-color: transparent;
 
 /* -------------------------------------
  * Navbar button
  * ------------------------------------- */
-$navbar-btn-height: 40px;
+$navbar-btn-height: 20px;
 $navbar-btn-bg: lightgrey;
 $navbar-btn-color: white;
 $navbar-btn-horizontal-padding: 10px;
@@ -137,7 +137,7 @@ $navbar-profile-border-width: 2px;
 @media screen and (max-width: 768px) {
   .navbar-wagon {
     .navbar-brand img, .navbar-brand svg {
-      height: 50px;
+      height: 20px;
     }
     .navbar-brand, .navbar-brand:hover
      {
