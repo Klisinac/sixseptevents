@@ -1,4 +1,4 @@
-## Démarrer un nouveau projet.
+## Projet 67events.
 
-1. Forkez le repo
-1. Renommez-le puis clonez-le sur votre ordinateur
+1. TRY
+2. DO
