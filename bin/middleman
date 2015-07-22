@@ -14,5 +14,3 @@ require 'rubygems'
 require 'bundler/setup'
 
 load Gem.bin_path('middleman-core', 'middleman')
-
-require 'middleman-gh-pages'
