@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>67 Events</title>
+    <title>67 Events - Contactez nous</title>
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
@@ -28,7 +28,7 @@
     <![endif]-->
   </head>
 
-  <body class="index">
+  <body class="contact">
     <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -68,18 +68,73 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div id="banner" class="text-center">
+    <div id="banner_contact" class="text-center">
 
-  <h1> 67 EVENTS</h1>
-    <br>
-    <br>
-      <p> 91 route des romains - 67200 STRASBOURG </p>
-      <p>67eventstg@gmail.com</p>
-    <br>
-      <button type="button" class="btn btn-default btn-lg">
-<a href="/contacts.html">        <i class="fa fa-envelope-o fa-lg"></i> Contactez nous
-</a>  </button>
 </div>
+<div id="contact" class="text-center">
+<h2> Vous souhaitez nous contacter ?</h2><br>
+
+  <div class="text-justify">
+   <form>
+    <div class="form-group">
+    <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> M.
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Mme.
+      </label>
+    </div>
+
+      <div class="form-group">
+        <label for="exampleInputName1">Votre nom </label>
+        <input type="name" class="form-control" id="exampleInputPassword1" placeholder="ex: Arnold">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Votre adresse mail </label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ex: 67events@email.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputTextarea"> Vos questions / commentaires</label>
+        <textarea class="form-control" rows="5" placeholder="ex : Quand est ce que les cours de zumba commence ?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">
+        Envoyez
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="text-center">
+  <h2> Où nous trouver ?</h2>
+  <p> 91 route des romains -
+67200 STRASBOURG</p>
+<br>
+<br>
+</div>
+
+<!-- Map -->
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+  <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.5785429,7.709766700000046);
+
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [] // TODO: replace [] by array from https://snazzymaps.com/
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+    });
+  </script>
 
     <!-- Footer -->
     <div id="footer">
