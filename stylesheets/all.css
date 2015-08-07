@@ -9249,10 +9249,10 @@ body {
 
 /* line 5, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 #banner {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/back.jpg");
   background-color: black;
   margin: auto;
-  margin-top: -30px;
+  margin-top: 0px;
   background-size: cover;
   padding: 180px 50px;
   color: white;
@@ -9287,7 +9287,7 @@ body {
   /* line 44, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
   #banner a:link {
     text-decoration: none;
-    color: white; }
+    color: black; }
 
 /* line 51, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 #contact {
