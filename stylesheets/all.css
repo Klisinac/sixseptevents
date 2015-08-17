@@ -9250,7 +9250,7 @@ body {
 /* line 5, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 #banner {
   background-image: url("../images/back.jpg");
-  background-color: black;
+  background-color: #161514;
   margin: auto;
   margin-top: 0px;
   background-size: cover;
@@ -9309,46 +9309,53 @@ body {
 .thumbnails {
   width: 150px;
   height: 150px;
-  background-color: white;
+  background: white;
+  background-size: cover;
   box-shadow: 1px 1px 1px 0px #6C7A88;
   border-radius: 5px;
   left: 25%; }
-  /* line 76, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+  /* line 77, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
   .thumbnails h3 {
     padding-top: 35%;
     text-align: center; }
 
-/* line 82, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 83, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .header-zone {
-  height: 200px;
   margin-top: 50px;
-  background-color: #EDEFED; }
+  padding-left: 50px;
+  padding-bottom: 50px;
+  background-color: #E8EBE4; }
 
-/* line 88, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 90, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+.header-zone2 {
+  padding: 50px;
+  background-color: white; }
+
+/* line 95, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .body-zone {
-  background-color: #D3D4D3;
+  background-color: #C4D6B0;
   width: auto;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
-  height: 350px; }
+  height: 420px; }
 
-/* line 96, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 103, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .body-zone-2 {
-  background-color: #ADAFAD;
+  background-color: #FCDE9C;
   width: auto;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
-  height: 350px; }
+  height: 420px; }
 
-/* line 104, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 111, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .body-zone-3 {
-  background-color: #919291;
+  background-color: #FFB36D;
   width: auto;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
-  height: 350px; }
+  height: 420px; }
 
-/* line 112, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 119, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 nav a {
   color: white; }
 
@@ -9544,12 +9551,41 @@ nav a {
 /* line 1, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
 .box {
   color: lightgrey;
+  background-color: #161616;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  /* line 7, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+  .box h4 {
+    color: white; }
+
+/* line 12, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+.boxevent {
+  background-color: #030503;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/* line 20, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+.box2 {
+  color: lightgrey;
+  background-color: #212121;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  /* line 26, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+  .box2 h4 {
+    color: white; }
+
+/* line 31, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+.box3 {
+  color: lightgrey;
   background-color: black;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px; }
-  /* line 7, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
-  .box h4 {
+  /* line 37, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+  .box3 h4 {
     color: white; }
 
 /*
