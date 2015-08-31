@@ -9562,7 +9562,7 @@ nav a {
 /* line 12, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
 .boxevent {
   background-color: #030503;
-  text-align: center;
+  padding-left: 200px;
   padding-top: 20px;
   padding-bottom: 20px; }
 
@@ -9587,6 +9587,12 @@ nav a {
   /* line 37, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
   .box3 h4 {
     color: white; }
+
+/* line 42, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+#form {
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 /*
 ==============================================
