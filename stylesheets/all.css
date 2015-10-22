@@ -1504,7 +1504,7 @@ hr {
 /* line 9, /Users/Saashafr/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -9245,21 +9245,30 @@ button.close {
 
 /* line 1, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 body {
-  background-color: #EDEFED; }
+  background-color: #EDEFED;
+  padding-top: 50px; }
 
-/* line 5, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 6, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 #banner {
-  background-image: url("../images/back.jpg");
-  background-color: #161514;
+  background: -webkit-linear-gradient(90deg, #8E0E00 10%, #1F1C18 90%);
+  /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #8E0E00 10%, #1F1C18 90%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #8E0E00 10%, #1F1C18 90%);
+  /* IE10 */
+  background: -o-linear-gradient(90deg, #8E0E00 10%, #1F1C18 90%);
+  /* Opera 11.10+ */
+  background: linear-gradient(90deg, #8E0E00 10%, #1F1C18 90%);
+  /* W3C */
   margin: auto;
   margin-top: 0px;
   background-size: cover;
-  padding: 180px 50px;
+  padding: 70px;
   color: white;
   background-position: center bottom;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px; }
-  /* line 16, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; }
+  /* line 20, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
   #banner .filter {
     position: absolute;
     z-index: 1;
@@ -9269,93 +9278,95 @@ body {
     left: 0;
     background: white;
     opacity: 0.1; }
-  /* line 26, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+  /* line 30, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
   #banner h1 {
     font-size: 70px;
     position: relative;
     z-index: 2;
     font-family: 'Orbitron', sans-serif; }
-  /* line 32, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+  /* line 36, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
   #banner p {
     font-weight: 0px;
     position: relative;
     z-index: 2;
     color: white; }
-  /* line 39, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+  /* line 43, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
   #banner a {
     color: black; }
-  /* line 44, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+  /* line 48, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
   #banner a:link {
     text-decoration: none;
     color: black; }
 
-/* line 51, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
-#contact {
-  padding-top: 50px;
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-bottom: 30px; }
-
-/* line 58, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
-#banner_contact {
-  margin: auto;
-  background-size: cover;
-  padding: 0px 400px;
-  color: white;
-  width: 200px;
-  background-position: center -70px; }
-
-/* line 68, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 55, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .thumbnails {
-  width: 150px;
-  height: 150px;
-  background: white;
-  background-size: cover;
+  width: 200px;
+  height: 200px;
   box-shadow: 1px 1px 1px 0px #6C7A88;
-  border-radius: 5px;
-  left: 25%; }
-  /* line 77, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+  border-radius: 50%; }
+  /* line 61, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
   .thumbnails h3 {
-    padding-top: 35%;
-    text-align: center; }
+    padding-top: 40%;
+    text-align: center;
+    color: white; }
 
-/* line 83, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 67, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+.salsa {
+  background-image: url("../images/Salsa.jpg");
+  background-size: cover; }
+
+/* line 71, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+.kizomba {
+  background-image: url("../images/kizomba.jpg");
+  background-size: cover; }
+
+/* line 75, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+.dancehall {
+  background-image: url("../images/dancehall.jpg");
+  background-size: cover; }
+
+/* line 80, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .header-zone {
   margin-top: 50px;
   padding-left: 50px;
   padding-bottom: 50px;
   background-color: #E8EBE4; }
 
-/* line 90, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 87, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .header-zone2 {
-  padding: 50px;
-  background-color: white; }
+  padding: 20px;
+  background-color: white;
+  margin-top: 30px; }
 
-/* line 95, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 93, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .body-zone {
-  background-color: #C4D6B0;
-  width: auto;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  height: 420px; }
+  background-color: #C41E3D;
+  padding: 60px;
+  color: #E6E6E6;
+  font-family: 'Lato', sans-serif; }
 
-/* line 103, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 100, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .body-zone-2 {
-  background-color: #FCDE9C;
-  width: auto;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  height: 420px; }
+  background-color: #8D2044;
+  padding: 60px;
+  color: #E6E6E6;
+  font-family: 'Lato', sans-serif; }
 
-/* line 111, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 107, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 .body-zone-3 {
-  background-color: #FFB36D;
-  width: auto;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  height: 420px; }
+  background-color: #C52233;
+  padding: 60px;
+  color: #E6E6E6;
+  font-family: 'Lato', sans-serif; }
 
-/* line 119, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+/* line 114, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
+.form {
+  background: white;
+  border-radius: 8px;
+  padding: 26px;
+  box-shadow: 3px 3px 3px 0px #cfcfcf; }
+
+/* line 121, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_body.css.scss */
 nav a {
   color: white; }
 
@@ -9384,6 +9395,11 @@ nav a {
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
+/* Chrome 10+, Saf5.1+ */
+/* FF3.6+ */
+/* IE10 */
+/* Opera 11.10+ */
+/* W3C */
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
@@ -9396,10 +9412,10 @@ nav a {
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
-/* line 38, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+/* line 42, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
-  background: #000000;
-  font-family: "Montserrat", "sans-serif";
+  background: linear-gradient(90deg, #8E0E00 10%, #1F1C18 90%);
+  font-family: "Oswald", sans-serif;
   border: none;
   font-weight: 400;
   padding-left: 20px;
@@ -9407,7 +9423,7 @@ nav a {
   border-bottom: 0 solid transparent;
   min-height: 0;
   transition: background 0.4s ease; }
-  /* line 49, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 53, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a,
   .navbar-wagon .navbar-nav > .open > a,
   .navbar-wagon .navbar-nav > li > a:focus,
@@ -9422,19 +9438,19 @@ nav a {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  /* line 65, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 69, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
-    color: #FDB631;
+    color: #EE5F5B;
     background-color: transparent; }
-  /* line 71, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 75, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
     color: #E8E8E8;
     padding-top: 10px;
     padding-bottom: 10px; }
-  /* line 79, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 83, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 20px;
     padding: 0 10px;
@@ -9444,30 +9460,30 @@ nav a {
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 88, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+    /* line 92, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 93, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 97, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 20px;
     padding: 0px; }
-  /* line 98, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 102, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 16px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 106, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 110, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 112, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 116, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 117, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 121, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9487,10 +9503,10 @@ nav a {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 140, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 144, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 20px; }
-  /* line 143, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
+  /* line 147, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: #E8E8E8;
@@ -9548,6 +9564,14 @@ nav a {
 .iconyoutube {
   color: #CC181E; }
 
+/* line 48, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/layout/_utilities.css.scss */
+.btn-white {
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  font-family: oswald;
+  margin: 6px; }
+
 /* line 1, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
 .box {
   color: lightgrey;
@@ -9561,38 +9585,36 @@ nav a {
 
 /* line 12, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
 .boxevent {
-  background-color: #030503;
-  padding-left: 200px;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  background-color: black;
+  margin: 0 auto;
+  color: lightgrey;
+  text-align: center;
+  padding: 60px; }
+  /* line 19, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+  .boxevent h3 {
+    color: white; }
 
-/* line 20, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+/* line 24, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
 .box2 {
   color: lightgrey;
-  background-color: #212121;
+  background: #43170E;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px; }
-  /* line 26, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
-  .box2 h4 {
+  /* line 30, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+  .box2 h3 {
     color: white; }
 
-/* line 31, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+/* line 35, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
 .box3 {
   color: lightgrey;
   background-color: black;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px; }
-  /* line 37, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
-  .box3 h4 {
+  /* line 41, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
+  .box3 h3 {
     color: white; }
-
-/* line 42, /Users/Saashafr/code/Klisinac/sixseptevents/source/stylesheets/pages/_home.css.scss */
-#form {
-  padding-left: 150px;
-  padding-top: 50px;
-  padding-bottom: 50px; }
 
 /*
 ==============================================
